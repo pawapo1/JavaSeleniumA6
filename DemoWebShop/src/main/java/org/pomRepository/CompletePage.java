@@ -6,7 +6,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class CompletePage {
-@FindBy(xpath ="//strong[text()='Your order has been sucessfully processed']")
+	@FindBy(xpath ="//strong[text()='Your order has been successfully processed!']")
 private WebElement orderPlaceMsg;
 //initialization
 public CompletePage(WebDriver driver) {
